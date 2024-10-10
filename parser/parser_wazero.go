@@ -33,6 +33,7 @@ func newRT() (wazero.Runtime, wazero.CompiledModule) {
 	ctx = experimental.WithMemoryAllocator(ctx, allocator.NewNonMoving())
 
 	rt := wazero.NewRuntimeWithConfig(ctx, wazero.NewRuntimeConfig().
+		WithMemoryLimitPages(4096).
 		WithCompilationCache(wazero.NewCompilationCache()).
 		WithCoreFeatures(api.CoreFeaturesV2|experimental.CoreFeaturesThreads))
 
