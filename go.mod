@@ -1,4 +1,4 @@
-module github.com/wasilibs/go-pgquery
+module github.com/fukasawah/go-pgquery
 
 go 1.21
 

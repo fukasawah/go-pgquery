@@ -4,8 +4,8 @@ import (
 	"reflect"
 	"testing"
 
-	pg_query "github.com/wasilibs/go-pgquery"
-	"github.com/wasilibs/go-pgquery/parser"
+	pg_query "github.com/fukasawah/go-pgquery"
+	"github.com/fukasawah/go-pgquery/parser"
 )
 
 var normalizeTests = []struct {

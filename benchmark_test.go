@@ -5,8 +5,8 @@ import (
 
 	pganalyze "github.com/pganalyze/pg_query_go/v5"
 
-	pg_query "github.com/wasilibs/go-pgquery"
-	"github.com/wasilibs/go-pgquery/parser"
+	pg_query "github.com/fukasawah/go-pgquery"
+	"github.com/fukasawah/go-pgquery/parser"
 )
 
 // Prevent compiler optimizations by assigning all results to global variables

@@ -28,7 +28,7 @@ go-pgquery is a standard Go library package and can be added to a go.mod file. I
 any Go project.
 
 ```
-go get github.com/wasilibs/go-pgquery
+go get github.com/fukasawah/go-pgquery
 ```
 
 Because the library is a drop-in replacement for pg_query_go, it is sufficient to change
@@ -41,7 +41,7 @@ import "github.com/pganalyze/pg_query_go/v5/parser"
 can be changed to
 
 ```go
-import "github.com/wasilibs/go-pgquery"
+import "github.com/fukasawah/go-pgquery"
 ```
 
 Note that to allow users to write transformation logic targeting both libraries, this library
@@ -96,5 +96,5 @@ build toolchain - operations still complete within dozens of microseconds.
 [1]: https://github.com/pganalyze/pg_query_go
 [2]: https://github.com/pganalyze/libpg_query
 [3]: https://wazero.io
-[4]: https://github.com/wasilibs/go-pgquery/blob/main/buildtools/wasm/Dockerfile#L13
-[5]: https://github.com/wasilibs/go-pgquery/actions/workflows/bench.yaml
+[4]: https://github.com/fukasawah/go-pgquery/blob/main/buildtools/wasm/Dockerfile#L13
+[5]: https://github.com/fukasawah/go-pgquery/actions/workflows/bench.yaml

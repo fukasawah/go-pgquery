@@ -6,7 +6,7 @@ import (
 	"reflect"
 	"testing"
 
-	pg_query "github.com/wasilibs/go-pgquery"
+	pg_query "github.com/fukasawah/go-pgquery"
 )
 
 //go:embed libpgquery_plpgsql_samples.sql

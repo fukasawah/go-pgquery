@@ -17,8 +17,8 @@ import (
 	"github.com/tetratelabs/wazero/experimental"
 	"github.com/tetratelabs/wazero/imports/wasi_snapshot_preview1"
 
-	"github.com/wasilibs/go-pgquery/internal/wasix_32v1"
-	"github.com/wasilibs/go-pgquery/internal/wasm"
+	"github.com/fukasawah/go-pgquery/internal/wasix_32v1"
+	"github.com/fukasawah/go-pgquery/internal/wasm"
 	"github.com/wasilibs/wazero-helpers/allocator"
 )
 

@@ -3,7 +3,7 @@ package pg_query_test
 import (
 	"testing"
 
-	pg_query "github.com/wasilibs/go-pgquery"
+	pg_query "github.com/fukasawah/go-pgquery"
 )
 
 // https://github.com/pganalyze/libpg_query/blob/16-5.1.0/test/deparse_tests.c

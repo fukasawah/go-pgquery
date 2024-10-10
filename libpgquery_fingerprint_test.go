@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	pg_query "github.com/wasilibs/go-pgquery"
+	pg_query "github.com/fukasawah/go-pgquery"
 )
 
 // https://github.com/pganalyze/libpg_query/blob/16-latest/test/fingerprint_tests.c

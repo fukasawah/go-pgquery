@@ -10,8 +10,8 @@ import (
 	pganalyze "github.com/pganalyze/pg_query_go/v5"
 	"google.golang.org/protobuf/testing/protocmp"
 
-	pg_query "github.com/wasilibs/go-pgquery"
-	"github.com/wasilibs/go-pgquery/parser"
+	pg_query "github.com/fukasawah/go-pgquery"
+	"github.com/fukasawah/go-pgquery/parser"
 )
 
 var parseTests = []struct {
